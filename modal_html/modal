@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>modal</title>
+  <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html,
+	body {
+		height: 100%;
+		background-image: url(image.jpg);
+		background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+	.wrapper {
+		position: relative;
+		min-height: 100%;
+	}
+	.modal{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 800px;
+		height: 400px;
+		background: #0ff;
+		margin-left: -400px;
+		margin-top: -200px;
+		text-align: center;
+	}
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+  <div class="modal"> <p>MODAL</p> </div>
+  </div> 
+</body>
+</html>
